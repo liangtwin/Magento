@@ -1,0 +1,39 @@
+<div class="footer-container">
+    <div class="footer">
+                <div class="f-right">
+            <img src="http://localhost/magento/skin/frontend/default/modern/images/media/footer_callout.png" class="footer-callout" alt="" />
+                    </div>
+        <div class="f-left">
+            <ul>
+<li><a href="http://localhost/magento/index.php/aboutus?___SID=U">关于我们</a></li>
+<li><a href="http://localhost/magento/index.php/customer-service?___SID=U">客户服务</a></li>
+<li class="last privacy"><a href="http://localhost/magento/index.php/privacy-policy-cookie-restriction-mode?___SID=U">隐私政策</a></li>
+</ul>            <ul class="links">
+                        <li class="first" ><a href="http://localhost/magento/index.php/catalog/seo_sitemap/category/?___SID=U" title="站点结构图" >站点结构图</a></li>
+                                <li ><a href="http://localhost/magento/index.php/catalogsearch/term/popular/?___SID=U" title="搜索条件" >搜索条件</a></li>
+                                <li ><a href="http://localhost/magento/index.php/catalogsearch/advanced/?___SID=U" title="高级搜索" >高级搜索</a></li>
+                                <li ><a href="http://localhost/magento/index.php/sales/guest/form/?___SID=U" title="订单与退货" >订单与退货</a></li>
+                                <li class=" last" ><a href="http://localhost/magento/index.php/contacts/?___SID=U" title="联系我们" >联系我们</a></li>
+            </ul>
+            <form action="http://localhost/magento/index.php/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
+    <div class="form-subscribe">
+        <div class="form-subscribe-header">
+            <label for="newsletter">注册新闻通讯：</label>
+        </div>
+        <div class="input-box">
+           <input type="text" name="email" id="newsletter" title="订阅我们的新闻邮件" class="input-text required-entry validate-email" />
+        </div>
+        <button type="submit" title="提交" class="button"><span><span>提交</span></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    new Varien.searchForm('newsletter-validate-detail', 'newsletter', '输入您的电子邮件地址');
+//]]>
+</script>
+            <p class="bugs">帮助我们保证Magento的健康 - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong>报告所有Bug</strong></a> （版本. 1.9.0.1）</p>
+            <address>&copy; 2014 Magento Demo Store. All Rights Reserved.</address>
+        </div>
+    </div>
+</div>
