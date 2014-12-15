@@ -1,0 +1,8 @@
+<?php if (Mage::getStoreConfig('buy/config/status') && !$this->getProduct()->isConfigurable()) 
+{ ?>
+	<button style="margin:0px 1px 0px 1px" type="button" title="Buy" class="button" onclick="setLocation('<?php echo $this->getUrl('purchase', array
+	(
+		'id' => $this->getProduct()->getId()
+	)) ?>')"><span><span>Buy</span></span></button>
+	<?php 
+} ?>
